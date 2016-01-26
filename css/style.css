@@ -1,0 +1,43 @@
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+h2{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    color:red ;
+  }
+  p{
+      font-family: 'Tangerine', serif;
+      font-size: 36px;
+    }
+    .valentine{
+      font-size: 48px;
+    }
+  .fa-heart{
+    color:red;
+    font-size: 36px !important;
+  }
+  .element{
+    padding-top:13% ;
+  }
+  button{
+    margin-top: 70% ;
+  }
